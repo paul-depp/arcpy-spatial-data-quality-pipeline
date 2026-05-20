@@ -1,0 +1,16 @@
+name: arcpy-spatial-data-quality
+channels:
+  - conda-forge
+  - esri
+dependencies:
+  - python=3.11          # Matches ArcGIS Pro 3.3/3.4
+  - arcpy                # This will only work if you have ArcGIS Pro installed
+  - pandas
+  - numpy
+  - folium               # For the interactive HTML maps in Week 5
+  - jinja2               # Useful for HTML reporting
+  - pyyaml
+  - pip
+  - pip:
+      - arcgis           # ArcGIS API for Python (optional but useful later)
+  

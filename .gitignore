@@ -216,3 +216,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ArcGIS / large geospatial data
+data/
+*.gdb/
+*.lock
+*.shp.xml
+*.cpg
+*.prj
+*.sbn
+*.sbx
+*.shx
